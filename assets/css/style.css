@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: #EEEAE8;
+}
+
+header {
+justify-content: center;
+}
+
+#weather-info {
+display: flex;
+gap: 15px;
+margin-left: 20px;
+margin-top: 15px;
+align-items: center;
+}
+
+
+.sidebar {
+  width: 300px;
+  background-color: #DADFE5;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar button {
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#weather {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.weather-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-card .city {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.weather-card .date {
+  margin-top: 5px;
+}
+
+.weather-card .temp {
+  margin-top: 5px;
+}
+
+.weather-card .humidity {
+  margin-top: 5px;
+}
+
+.weather-card .wind-speed {
+  margin-top: 5px;
+}
+
+#previousSearches button {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#date {
+  font-size: 18px;
+}
+
+#weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#weather-info p {
+  margin: 5px 0;
+}

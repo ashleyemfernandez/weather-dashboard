@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>5-Day Weather Forecast</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <h2>Search City</h2>
+    <input type="text" id="cityInput" placeholder="Enter city name only">
+    <button onclick="searchWeather()">Search</button>
+    <br>
+    <br>
+    <div id="previousSearches">
+        <button onclick="previousSearches()">Search History</button>
+      </div>
+  </div>
+
+  <div>
+  <div id="weather-container">
+    <div id="weather-info">
+      <h2 id="date"></h2>
+      <img id="weather-icon" src="" alt="Weather Icon">
+      <p id="temperature"></p>
+      <p id="wind-speed"></p>
+      <p id="humidity"></p>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1>5-Day Weather Forecast</h1>
+    <div id="weather"></div>
+  </div>
+</div>
+
+  <script src="./assets/js/script.js"></script>
+  
+</body>
+</html>
